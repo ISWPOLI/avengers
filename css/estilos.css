@@ -63,3 +63,140 @@ form.olvidoform{
     padding: 0;
 	border-top: none;
 }
+header{
+    padding: 20px;
+}
+.micuenta a{
+    float: right;
+    padding: 20px 15px; 
+    font-size: 18px;
+    color: #000;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+.lista{
+    text-align: center;
+}
+.lista ul li{
+    display: inline-block;
+    width: 18%;
+    background: #fff;
+    padding: 40px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.lista ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.lista ul li:hover{
+    background-color: #2852a4;
+}
+.lista ul li:hover a{
+    color: #fff;
+}
+.titInt{
+    padding: 40px 20px;
+}
+.center{
+    text-align: center;
+}
+.crear{
+        padding: 0 15px;
+    color: #fff;
+    font-size: 20px;
+    background: #2852a4;    
+    display: block;
+    margin: 0 auto;
+    float: right;
+    text-decoration: none;
+    padding: 12px;
+}
+.center a{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 20px;
+    background: #2852a4;    
+    display: block;
+    margin: 0 auto;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    margin-right: 15px;
+}
+#result-container{
+    text-align: center;
+    padding: 20px;
+}
+.diagnostico p{
+    padding: 20px;
+}
+.recuerde{
+    padding: 40px 20px;
+}
+form{
+    width: 500px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+    
+    table.width200,table.rwd_auto {border:1px solid #ccc;width:100%;margin:0 0 50px 0}
+        .width200 th,.rwd_auto th {background:#ccc;padding:5px;text-align:center;}
+        .width200 td,.rwd_auto td {border-bottom:1px solid #ccc;padding:5px;text-align:center}
+        .width200 tr:last-child td, .rwd_auto tr:last-child td{border:0}
+        
+    .rwd {width:90%;overflow:auto; margin: 0 auto;}
+        .rwd table.rwd_auto {width:auto;min-width:100%}
+            .rwd_auto th,.rwd_auto td {white-space: nowrap;}
+            table{
+                background: #fff;
+            }
+            
+    @media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px)  
+    {
+    
+        table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr { display: block; }
+        
+        .width200 thead tr { position: absolute;top: -9999px;left: -9999px; }
+        
+        .width200 tr { border: 1px solid #ccc; }
+        
+        .width200 td { border: none;border-bottom: 1px solid #ccc; position: relative;padding-left: 50%;text-align:left }
+        
+        .width200 td:before {  position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+        
+        .width200 td:nth-of-type(1):before { content: "Nombre"; }
+        .width200 td:nth-of-type(2):before { content: "Apellidos"; }
+        .width200 td:nth-of-type(3):before { content: "Cargo"; }
+        .width200 td:nth-of-type(4):before { content: "Twitter"; }
+        .width200 td:nth-of-type(5):before { content: "ID"; }
+        
+        .descarto {display:none;}
+        .fontsize {font-size:10px}
+    }
+    
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-width : 320px) and (max-width : 480px) 
+    {
+        body { width: 320px; }
+        .descarto {display:none;}
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) 
+    {
+        body { width: 495px; }
+        .descarto {display:none;}
+        .fontsize {font-size:10px}
+    }
